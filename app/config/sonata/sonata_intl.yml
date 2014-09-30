@@ -10,3 +10,8 @@ sonata_intl:
         detectors:
             - sonata.intl.timezone_detector.user    # default value if SonataUserBundle is available
             - sonata.intl.timezone_detector.locale  # default value
+        locales:
+            fr:    Europe/Paris
+            en_UK: Europe/London
+            ro:    Europe/Bucharest
+        default: Europe/Bucharest
